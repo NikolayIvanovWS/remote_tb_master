@@ -33,6 +33,8 @@ def install_to_one_tb(host, username, passwd):
     stdin.flush()
     time.sleep(10)
 
+    print("Finish with {}".format(host))
+
     client.close()
 
 if __name__ == "__main__":
